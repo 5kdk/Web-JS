@@ -69,7 +69,7 @@ const productDiscount = makeDOMwithProperties("div", {
 });
 
 const productPrice = makeDOMwithProperties("div", {
-  className: "pruduct-discount-percent",
+  className: "product-price",
   innerHTML: "2000원",
 });
 
