@@ -1,6 +1,7 @@
 import { getProductList } from "./module/productList.js";
+import { getProductSection } from "./module/productSection.js";
 
-const productList = getProductList([
+const productSection = getProductSection('인기 상품', [
   {
     id: 3,
     imgSrc: "/js_basic_market/public/assets/바나나.jpg",
@@ -27,4 +28,4 @@ const productList = getProductList([
   },
 ]);
 
-document.body.appendChild(productList);
+document.body.appendChild(productSection);

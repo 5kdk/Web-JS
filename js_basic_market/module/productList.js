@@ -1,11 +1,11 @@
-import { makeDOMwithProperties } from "../utils/dom.js"
+import { makeDOMwithProperties } from "../utils/dom.js";
 import { getProductCard } from "./productCard.js";
 
 export const getProductList = (productInfoList) => {
   if (productInfoList == null || !Array.isArray(productInfoList)) return;
-  const productListContainer = makeDOMwithProperties('div', {
-    className: 'product-list-con'
-  })
+  const productListContainer = makeDOMwithProperties("div", {
+    className: "product-list-con",
+  });
 
   productInfoList.forEach((productInfo) => {
     productListContainer.appendChild(
@@ -15,4 +15,4 @@ export const getProductList = (productInfoList) => {
     );
   });
   return productListContainer;
-}
+};
