@@ -49,7 +49,7 @@ export const getProductCard = ({ imgSrc, name, discountPercent, price, originalP
   });
 
   const productPrice = makeDOMwithProperties("div", {
-    className: "pruduct-discount-percent",
+    className: "product-price",
     innerHTML: `${price.toLocaleString()}원`, // 2000 -> 2,000
   });
 

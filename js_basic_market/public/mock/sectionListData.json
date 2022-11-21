@@ -13,11 +13,35 @@
         },
         {
           "id": 2,
-          "imgSrc": "/js_basic_market/public/assets/파프리카.jpg",
+          "imgSrc": "/js_basic_market/public/assets/당근.jpg",
           "name": "친환경 당근 400g",
           "discountPercent": 33,
           "price": 2000,
           "originalPrice": 3000
+        },
+        {
+          "id": 3,
+          "imgSrc": "/js_basic_market/public/assets/바나나.jpg",
+          "name": "바나나 1.3kg",
+          "discountPercent": 10,
+          "price": 11700,
+          "originalPrice": 13000
+        },
+        {
+          "id": 4,
+          "imgSrc": "/js_basic_market/public/assets/원두.jpg",
+          "name": "원두 1kg",
+          "discountPercent": 10,
+          "price": 9000,
+          "originalPrice": 1000
+        },
+        {
+          "id": 5,
+          "imgSrc": "/js_basic_market/public/assets/아보카도.jpg",
+          "name": "아보카도",
+          "discountPercent": 20,
+          "price": 16000,
+          "originalPrice": 20000
         }
       ]
     }
